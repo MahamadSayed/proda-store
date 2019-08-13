@@ -16,24 +16,24 @@
             <div class="page-nav-1">
             <?php if(isset($_SESSION["name"])):  ?>
             <?php echo "<a href='products.php'>
-                                <img src='store.png' >
+                                <img src='img/store.png' >
                                 <p>Store</p>
                                 </a>
                                 </div>
                         <div class='page-nav-2'>
                                  <a href='upload.php'>
-                                <img src='upload_product.png' >
+                                <img src='img/upload_product.png' >
                                 <p>Add a product</p>
                                 </a>
                                 </div>"; ?>
             <?php else: echo "<a href='register.php'>
-                                <img src='reg_user.png' >
+                                <img src='img/reg_user.png' >
                                 <p>Register</p>
                                 </a>
                                 </div>
                         <div class='page-nav-2'>
                                  <a href='login.php'>
-                                <img src='login.png' >
+                                <img src='img/login.png' >
                                 <p>Login</p>
                                 </a>
                                 </div>";
