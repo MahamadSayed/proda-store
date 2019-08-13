@@ -1,0 +1,390 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+
+body {
+    background-image: url("../oldstore.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+ 
+
+  .nav-links li {
+    list-style: none;
+    text-decoration: none;
+ }
+ 
+ header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 5%;
+     opacity: 0.75;
+     background-color: #343a40;
+     
+ }
+ 
+ .nav-links li {
+     display: inline-block;
+     margin-left: 20px;
+     color: whitesmoke;
+ }
+ 
+ .nav-links li a {
+     color: whitesmoke;
+     text-decoration: none;
+ }
+ 
+ .nav-links li a:hover {
+     color: #1dbf73;
+ }
+ 
+ 
+ nav h3 {
+     color: #1dbf73; 
+     font-size: 35px;
+     font-weight: bold;
+     margin-right: 30px;
+     
+     
+ }
+ 
+ nav h3 span {
+     color: whitesmoke; 
+ }
+ 
+ header a button.nav-btn {
+     padding: 10px 20px;
+     font-weight: bold;
+     color: white;
+     background: #1dbf73;
+     border: none;
+     border-radius: 50px;
+     cursor: pointer
+ }
+ 
+ header a button.nav-btn:hover {
+     color: rgb(255, 255, 181);
+     background: #119658;
+ }
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 20px;
+}
+
+.text-container {
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+
+.text-container h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 65px;
+    color: #1dbf73; 
+    font-weight: bold;
+    text-shadow: 2px 2px 8px whitesmoke;
+    margin-top: 10px;
+}
+
+.text-container h1 span {
+    color: whitesmoke; 
+    text-shadow: 2px 2px 8px #17a362;
+}
+
+.text-container p {
+    font-size: 150%;
+    color: white; 
+    text-shadow: 2px 2px 8px #1dbf73;
+}
+
+
+#form {
+    width: 100%;
+    background-color: #343a40b6;
+    margin: 0 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px;
+
+}
+
+#form .input-options {
+    text-align: center;
+    color: white;
+}
+
+#form .input-options input {
+    width: 95%;
+    margin: 15px auto;
+    height: 45px;
+    padding: 10px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.input-options .btn {
+    width: 50%;
+    padding: 10px 10px;
+    font-weight: bold;
+    color: white;
+    background: #1dbf73;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.input-options .btn:hover {
+    color: rgb(255, 255, 181);
+    background: #119658;
+}
+
+.input-options .btn a {
+    text-decoration: none;
+    color:  rgb(255, 255, 181);
+}
+
+#form h2 {
+    color: whitesmoke;
+    font-weight: bolder;
+    text-shadow: 5px 5px 10px black;
+    background-color: #1dbf73;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+#form .input-options a.form-link {
+    color: #1dbf73; 
+    text-decoration: none;
+    margin: 20px;
+}
+
+#form .input-options a.form-link:hover {
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+
+.gallery-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+
+}
+  
+.product_card {
+    border: 1px solid #1dbf73;
+    border-radius: 10px;
+    margin: 50px 50px  ;
+    width: 250px;
+    height: 350px;
+    background: #212122d3;
+    color: white;
+    
+}
+
+.product_card .img {
+    width: 200px;
+    height: 200px;
+    margin: 10px auto;
+    border: 1px solid #1dbf73;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.product_card .img img {
+    width: 190px  !important;  
+    height: 190px  !important;
+    border-radius: 10px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+.text {
+    text-align: center;
+}
+
+.text p {
+    margin-top: 5px;
+}
+
+div .errors {
+    margin: 10px 0 10px;
+    color: whitesmoke;
+    border: none;
+    background: rgba(255, 0, 0, 0.301);
+}
+
+.page-nav-1 img {
+    width: 120px;
+    height: 120px;
+}
+
+.content-nav {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-nav-1 , .page-nav-2 {
+   
+    border: 1px solid #1dbf73;
+    border-radius: 10px;
+    margin: 50px 50px  ;
+    width: 350px;
+    height: 200px;
+    background: #f8f8ffa8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-nav-1 a , .page-nav-2 a {
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(43, 52, 63); 
+    text-shadow: 2px 2px 8px #07080c;
+}
+
+.uploader {
+    margin-top: 30px;
+}
+
+.uploader .input-options textarea {
+    color: black;
+    font-size: 20px;
+
+}
+
+.uploader .input-options .btn {
+    font-size: 18px;
+}
+
+.more-info {
+    margin-top: 20px;
+   
+}
+
+
+.more-info a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 1px solid#1dbf73;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 10px ;
+}
+
+.container-single {
+    text-align: center;
+    color: white;
+}
+
+.product-single {
+    margin-top: 15px;
+    text-align:center;
+   
+}
+
+.product-single h1 {
+    color: whitesmoke; 
+    text-shadow: 2px 2px 8px #17a362;
+}
+
+ .img-big img {
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+    padding: 2px;
+    background: white;
+    border: 1px solid #1dbf73;
+}
+
+.text-single {
+    width: 60%;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid #1dbf73;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding: 10px;
+    background: #212122d3;
+    color: white;
+}
+
+.text-single p {
+    margin: 10px;
+}
+
+.text-single a button {
+    background:red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text-single a button:hover {
+    background:rgb(151, 2, 2);
+    color: white;
+}
+
+h3 .errors {
+        margin: 10px 0 10px;
+        color: whitesmoke;
+        border: 1px solid red;
+        background: rgba(255, 0, 0, 0.301);
+}
+
+.logged p {
+    display: inline-block;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.logout {
+    text-decoration: none;
+    color: #1dbf73;
+    margin: 10px;
+    font-weight: 900;
+}
+
+.logout:hover {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+.errors-big {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    background: rgba(255, 0, 0, 0.301);
+    text-align: center;
+}
