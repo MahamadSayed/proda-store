@@ -7,6 +7,6 @@
 
   <!--Custom CSS file -->
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, world!</title>
+    <title>ProdaStore</title>
   </head>
   <body>
